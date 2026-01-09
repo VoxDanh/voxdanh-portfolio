@@ -1,0 +1,38 @@
+.featured-projects-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.featured-projects-section li {
+    margin-bottom: 1.25rem;
+}
+
+.featured-projects-section li:last-child {
+    margin-bottom: 0;
+}
+
+.featured-projects-section h3 {
+    font-size: 1.15rem;
+    color: #003366;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.featured-projects-section p {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .featured-projects-section h3 {
+        font-size: 1.05rem;
+    }
+
+    .featured-projects-section p {
+        font-size: 0.9rem;
+    }
+}

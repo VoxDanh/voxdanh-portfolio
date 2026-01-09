@@ -1,0 +1,38 @@
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-section li {
+    margin-bottom: 1rem;
+}
+
+.skills-section li:last-child {
+    margin-bottom: 0;
+}
+
+.skills-section h3 {
+    font-size: 1.1rem;
+    color: #003366;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.skills-section p {
+    margin: 0;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 768px) {
+    .skills-section h3 {
+        font-size: 1rem;
+    }
+
+    .skills-section p {
+        font-size: 0.95rem;
+    }
+}

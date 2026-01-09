@@ -1,0 +1,77 @@
+.section-wrapper {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border: 3px solid #003366;
+    /* Khung đen theo hình */
+    position: relative;
+    /* Để định vị avatar tuyệt đối theo wrapper */
+    padding: 1.2rem 1.5rem 1.4rem 1.5rem;
+    /* Padding nội dung bên trong */
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.section-wrapper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+/* Container cho avatar: Định vị nằm đè lên viền trên */
+.avt-img-container {
+    position: absolute;
+    top: -45px;
+    /* Dịch lên một nửa chiều cao avatar (150/2) */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    /* Nền trắng để che viền wrapper phía sau (nếu cần) hoặc trong suốt */
+    border-radius: 50%;
+    border: 2px solid #333;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.section-avt {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Đảm bảo wrapper chứa avatar có đủ khoảng trống phía trên (bên trong section) nếu không dùng margin grid */
+.information-wrapper {
+    margin-top: 0;
+    /* Hiện tại grid gap đã lo khoảng cách, nhưng avatar cần không gian */
+    overflow: visible;
+    /* Cho phép avatar trồi ra ngoài */
+}
+
+@media screen and (max-width: 768px) {
+    .section-wrapper {
+        padding: 1.2rem 1rem;
+    }
+
+    .avt-img-container {
+        width: 120px;
+        height: 120px;
+        top: -60px;
+        /* Adjust top position for smaller avatar */
+    }
+
+    .resume-section-title {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}

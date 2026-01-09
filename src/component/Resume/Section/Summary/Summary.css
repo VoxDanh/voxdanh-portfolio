@@ -1,0 +1,14 @@
+.summary-section {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .summary-section {
+        font-size: 0.95rem;
+        text-align: left;
+        /* Justify can look weird on small screens */
+    }
+}

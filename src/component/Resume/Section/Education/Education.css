@@ -1,0 +1,30 @@
+.education-section h3 {
+    font-size: 1.2rem;
+    color: #003366;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.education-section p {
+    margin: 0.2rem 0;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.education-section p:last-child {
+    font-style: italic;
+    color: #777;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .education-section h3 {
+        font-size: 1.1rem;
+    }
+
+    .education-section p {
+        font-size: 0.95rem;
+    }
+}

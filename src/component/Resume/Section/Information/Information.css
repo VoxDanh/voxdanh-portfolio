@@ -1,0 +1,34 @@
+.information-name {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.information-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.information-detail {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0.3rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .information-name {
+        font-size: 1.6rem;
+    }
+
+    .information-subtitle {
+        font-size: 1rem;
+    }
+
+    .information-detail {
+        font-size: 1rem;
+        text-align: center;
+    }
+}

@@ -8,9 +8,9 @@ import Skills from './Section/Skills/Skills.jsx'
 import FeaturedProjects from './Section/FeaturedProjects/FeaturedProjects.jsx'
 import Experience from './Section/Experience/Experience.jsx'
 
-function Resume() {
+function Resume({ ref }) {
     return (
-        <article className="resume-container">
+        <article className="resume-container" ref={ref}>
             <section className="information">
                 <Wrapper className="information-wrapper" avtImg={avt}>
                     <Information />

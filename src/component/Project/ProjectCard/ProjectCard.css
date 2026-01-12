@@ -1,15 +1,109 @@
-.project-card-container {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+.project-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
 }
-.project-card-image {
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-status,
+.project-type {
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-status {
+    background-color: #94d5dd;
+    color: #006064;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.project-type {
+    background-color: #e09fea;
+    color: #370178;
+    position: absolute;
+    top: 55px;
+    left: 15px;
+}
+
+.project-image {
     width: 100%;
+    height: 180px;
+    object-fit: cover;
     border-radius: 8px;
+    margin-bottom: 15px;
 }
-.project-card-title {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
+
+.project-title {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.project-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+a {
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.project-links-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 10px;
+}
+
+.nav-links-container {
+    border: 2px solid #003366;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-links-container:hover {
+    transform: translateY(-5px);
+    background-color: #f0f8ff;
+}
+
+.project-link {
+    color: #007bff;
+
+}
+
+.project-demo {
+    color: #28a745;
+}
+
+.project-github {
+    color: #333;
+}
+
+.project-blog {
+    color: #dc3545;
 }

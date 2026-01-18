@@ -5,11 +5,12 @@ import './App.css'
 import { useRef } from 'react';
 function App() {
   const resumeRef = useRef(null);
+  const projectRef = useRef(null);
   return (
     <>
-      <Welcome resumeRef={resumeRef} />
+      <Welcome resumeRef={resumeRef} projectRef={projectRef} />
       <Resume ref={resumeRef} />
-      <Project />
+      <Project ref={projectRef} />
     </>
   )
 }

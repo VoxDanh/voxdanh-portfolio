@@ -5,7 +5,7 @@ const scrollTo = (destinationRef) => {
     destinationRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-function Welcome({ resumeRef }) {
+function Welcome({ resumeRef, projectRef }) {
 
     return (
         <div className="welcome-container">
@@ -16,7 +16,7 @@ function Welcome({ resumeRef }) {
                 <li className="welcome-nav-item" onClick={() => scrollTo(resumeRef)}>My Resume</li>
                 <li className="welcome-nav-item">My Experience</li>
                 <li className="welcome-nav-item" >Contact Me</li>
-                <li className="welcome-nav-item" >My Projects</li>
+                <li className="welcome-nav-item" onClick={() => scrollTo(projectRef)} >My Projects</li>
                 <li className="welcome-nav-item" >My Blogs</li>
             </ul>
         </div>

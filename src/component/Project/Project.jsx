@@ -1,9 +1,8 @@
 import './Project.css'
-
 import ProjectCard from './ProjectCard/ProjectCard.jsx'
-function Project() {
+function Project({ ref }) {
     return (
-        <article class="project-section">
+        <article className="project-container" ref={ref}>
             <ProjectCard />
         </article>
     )

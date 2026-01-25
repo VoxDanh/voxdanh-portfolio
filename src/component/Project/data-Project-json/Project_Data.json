@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "nameProject": "Portfolio Website",
+        "imgProject": "src/assets/img-project/images.jpg",
+        "description": "A personal portfolio website to showcase my projects and skills.",
+        "type": "Web Development",
+        "status": "Progressing",
+        "category": "Personal-Project",
+        "techStack": [
+            "React",
+            "CSS",
+            "JavaScript",
+            "HTML"
+        ],
+        "detailLink": "#",
+        "demoLink": "#",
+        "gitHubLink": "#",
+        "tutorialLink": "#"
+    },
+    {
+        "id": 2,
+        "nameProject": "Weather Forecast Website",
+        "imgProject": "src/assets/img-project/images.jpg",
+        "description": "A website that provides weather forecasts and related information.",
+        "type": "Web Development",
+        "status": "Completed",
+        "category": "Toy-Project",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "OpenWeatherMap_API"
+        ],
+        "detailLink": "#",
+        "demoLink": "#",
+        "gitHubLink": "#",
+        "tutorialLink": "#"
+    },
+    {
+        "id": 2,
+        "nameProject": "Weather Forecast Website",
+        "imgProject": "src/assets/img-project/images.jpg",
+        "description": "A website that provides weather forecasts and related information.",
+        "type": "Web Development",
+        "status": "Completed",
+        "category": "Toy-Project",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "OpenWeatherMap_API"
+        ],
+        "detailLink": "#",
+        "demoLink": "#",
+        "gitHubLink": "#",
+        "tutorialLink": "#"
+    },
+    {
+        "id": 2,
+        "nameProject": "Weather Forecast Website",
+        "imgProject": "src/assets/img-project/images.jpg",
+        "description": "A website that provides weather forecasts and related information.",
+        "type": "Web Development",
+        "status": "Completed",
+        "category": "Toy-Project",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "OpenWeatherMap_API"
+        ],
+        "detailLink": "#",
+        "demoLink": "#",
+        "gitHubLink": "#",
+        "tutorialLink": "#"
+    },
+    {
+        "id": 2,
+        "nameProject": "Weather Forecast Website",
+        "imgProject": "src/assets/img-project/images.jpg",
+        "description": "A website that provides weather forecasts and related information.",
+        "type": "Web Development",
+        "status": "Completed",
+        "category": "Toy-Project",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "OpenWeatherMap_API"
+        ],
+        "detailLink": "#",
+        "demoLink": "#",
+        "gitHubLink": "#",
+        "tutorialLink": "#"
+    }
+]

@@ -1,20 +1,19 @@
 import './ProjectCard.css'
-function ProjectCard({ props }) {
+function ProjectCard({ Project_data }) {
     return (
-        <div class="project-card">
-            <div class="project-tags">
-                <p class="project-status">Status</p>
-                <p class="project-type">Type</p>
+        <div className="project-card">
+            <div className="project-tags">
+                <p className="project-status">{Project_data.status}</p>
+                <p className="project-type">{Project_data.type}</p>
             </div>
-            <img src="./src/assets/img-project/images.jpg" alt="Project Image" class="project-image" />
-            <h2 class="project-title">Project Title</h2>
-            <p class="project-description">This is a brief description of the project. It highlights the main features and
-                objectives.</p>
-            <div class="project-links-container">
-                <a href="#" class="project-link nav-links-container">Learn More</a>
-                <a href="#" class="project-demo nav-links-container">View Demo</a>
-                <a href="#" class="project-github nav-links-container">View code</a>
-                <a href="#" class="project-blog nav-links-container">Tutorial</a>
+            <img src={Project_data.imgProject} alt="Project Image" className="project-image" />
+            <h2 className="project-title">{Project_data.nameProject}</h2>
+            <p className="project-description">{Project_data.description}</p>
+            <div className="project-links-container">
+                <a href={Project_data.detailLink} className="project-link nav-links-container">Learn More</a>
+                <a href={Project_data.demoLink} className="project-demo nav-links-container">View Demo</a>
+                <a href={Project_data.gitHubLink} className="project-github nav-links-container">View code</a>
+                <a href={Project_data.tutorialLink} className="project-blog nav-links-container">Tutorial</a>
             </div>
         </div>
     )

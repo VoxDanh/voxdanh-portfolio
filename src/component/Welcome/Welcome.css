@@ -5,9 +5,10 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background: linear-gradient(135deg, #001f3f 0%, #003366 100%);
+    background: linear-gradient(to bottom, #001f3f 0%, #003366 100%);
     color: white;
 }
+
 
 .avt-img {
     width: 200px;

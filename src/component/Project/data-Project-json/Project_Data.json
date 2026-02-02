@@ -2,7 +2,7 @@
     {
         "id": 1,
         "nameProject": "Portfolio Website",
-        "imgProject": "src/assets/img-project/portfolio_Img.jpg",
+        "imgProject": "public/img-project/portfolio_Img.jpg",
         "description": "A personal portfolio website to showcase my projects and skills.",
         "type": "Web Development",
         "status": "Progressing",
@@ -21,7 +21,7 @@
     {
         "id": 2,
         "nameProject": "Weather Forecast Website",
-        "imgProject": "src/assets/img-project/weather_Img.jpg",
+        "imgProject": "public/img-project/weather_Img.jpg",
         "description": "A website that provides weather forecasts and related information.",
         "type": "Web Development",
         "status": "Updating",

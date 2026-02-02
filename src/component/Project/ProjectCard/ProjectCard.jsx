@@ -3,8 +3,8 @@ function ProjectCard({ Project_data }) {
     return (
         <div className="project-card">
             <div className="project-tags">
+                {/* <p className="project-type">{Project_data.type}</p> */}
                 <p className="project-status">{Project_data.status}</p>
-                <p className="project-type">{Project_data.type}</p>
             </div>
             <img src={Project_data.imgProject} alt="Project Image" className="project-image" />
             <h2 className="project-title">{Project_data.nameProject}</h2>

@@ -1,6 +1,6 @@
 .project-container {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #003366;
+    background: linear-gradient(to top, #012345 10%, #003366 100%);
     min-height: 100vh;
     margin: 0;
     display: grid;
@@ -10,6 +10,7 @@
     place-items: center;
     align-content: center;
 }
+
 @media (max-width: 768px) {
     .project-container {
         padding: 30px 20px;
@@ -17,6 +18,7 @@
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     }
 }
+
 @media (max-width: 480px) {
     .project-container {
         padding: 30px 10px;
@@ -24,5 +26,6 @@
         grid-template-columns: 1fr;
     }
 }
+
 /* note: ban đầu tôi nghĩ sẽ làm một showcase kéo ngang để hiển thị nhưng điều này khá khó với tôi hiện tại dù đã vibe ra showcase dạng đó nhưng tôi chưa hiểu hết được nó nên tôi next nó và sử dụng grid layout cho dễ hơn , tôi sẽ update dạng này vào một ngày nào đó
 tôi có để một số project trùng để có thể thấy kết quả khi có nhiều project hơn trong tương lai*/

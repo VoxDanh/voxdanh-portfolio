@@ -30,17 +30,17 @@
     background-color: #94d5dd;
     color: #006064;
     position: absolute;
-    top: 25px;
-    left: 15px;
+    top: 30px;
+    left: 2px;
 }
 
-.project-type {
+/*.project-type {
     background-color: #e09fea;
     color: #370178;
     position: absolute;
     top: 55px;
-    left: 15px;
-}
+    left: 2px;
+}*/
 
 .project-image {
     width: 100%;

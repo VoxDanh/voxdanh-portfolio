@@ -65,7 +65,7 @@ const Contact = forwardRef((props, ref) => {
                                 <i className="fa-brands fa-linkedin"></i> &nbsp;
                                 LinkedIn
                             </a>
-                            <a href="https://www.facebook.com/VoxDanh" target="_blank" rel="noopener noreferrer">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fa-brands fa-facebook"></i>&nbsp;
                                 Facebook
                             </a>

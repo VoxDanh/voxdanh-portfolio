@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "institution": "Can Tho University",
+        "degree": "Introduction to Programming A",
+        "technologies": [
+            "C"
+        ],
+        "description": "Begin to familiarize yourself with programming, learn and understand the basic concepts of programming in the C language such as loops, conditions, variables, functions, libraries, pointers, etc.",
+        "score": "B+ (8.5/10)"
+    },
+    {
+        "id": 2,
+        "institution": "Can Tho University",
+        "degree": "Update soon...",
+        "technologies": [],
+        "description": "Update soon...",
+        "score": "Update soon..."
+    }
+]

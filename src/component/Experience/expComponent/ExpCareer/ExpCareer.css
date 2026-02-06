@@ -1,0 +1,176 @@
+.exp-career-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* --- Timeline Section --- */
+.timeline-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+/* The Vertical Line */
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #e0e0e0;
+    top: 0;
+    bottom: 0;
+    left: 36px;
+    /* Adjust based on dot vertical alignment and container padding */
+    border-radius: 2px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 60px;
+    /* Space for dot and line */
+    width: 100%;
+}
+
+/* The Dot */
+.timeline-dot {
+    position: absolute;
+    left: 28px;
+    /* Center on the line (line left is 36px, width 4px. center is 38px. dot width 20px. 38 - 10 = 28) */
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0056b3;
+    border: 4px solid #fff;
+    z-index: 1;
+    box-shadow: 0 0 0 4px rgba(0, 86, 179, 0.2);
+}
+
+.career-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s;
+}
+
+.career-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.career-position {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.career-company {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #004085;
+    margin-bottom: 15px;
+}
+
+.career-description {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.career-duration {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #555;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* --- Freelance Section --- */
+.freelance-section {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.freelance-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.freelance-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #0056b3;
+    margin: 8px auto 0;
+}
+
+.freelance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.freelance-card {
+    background-color: white;
+    border: 1px dashed #bbb;
+    border-radius: 8px;
+    padding: 20px;
+    transition: background-color 0.2s;
+}
+
+.freelance-card:hover {
+    background-color: #fbfbfb;
+    border-color: #999;
+}
+
+.freelance-job {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.freelance-role {
+    font-size: 0.9rem;
+    color: #0056b3;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.freelance-desc {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .timeline-container {
+        padding-left: 0;
+    }
+
+    .timeline-container::after {
+        left: 20px;
+    }
+
+    .timeline-dot {
+        left: 12px;
+    }
+}

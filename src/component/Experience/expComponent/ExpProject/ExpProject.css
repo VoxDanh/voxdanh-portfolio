@@ -1,0 +1,22 @@
+.exp-project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.exp-project-container .exp-project-card {
+    width: calc((100% - 40px) / 3);
+}
+
+@media (max-width: 1024px) {
+    .exp-project-container .exp-project-card {
+        width: calc((100% - 20px) / 2);
+    }
+}
+
+@media (max-width: 768px) {
+    .exp-project-container .exp-project-card {
+        width: 100%;
+    }
+}

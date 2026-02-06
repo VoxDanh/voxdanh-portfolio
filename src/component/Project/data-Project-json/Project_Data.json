@@ -36,5 +36,19 @@
         "demoLink": "#",
         "gitHubLink": "#",
         "tutorialLink": "#"
+    },
+    {
+        "id": 3,
+        "nameProject": "E-commerce Website",
+        "imgProject": "/img-project/images.jpg",
+        "description": "An online platform for buying and selling products.",
+        "type": "Web Development",
+        "status": "Planning",
+        "category": "#",
+        "techStack": [],
+        "detailLink": "#",
+        "demoLink": "#",
+        "gitHubLink": "#",
+        "tutorialLink": "#"
     }
 ]

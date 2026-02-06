@@ -1,0 +1,95 @@
+.exp-project-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.exp-project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.exp-project-tech {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-tag {
+    background-color: #f0f4f8;
+    color: #0056b3;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.problems-wrapper {
+    position: relative;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.problems-wrapper.collapsed {
+    max-height: 100px;
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+}
+
+.problems-wrapper.expanded {
+    max-height: 500px;
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+.exp-project-problems {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.problem-item {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    display: flex;
+    align-items: flex-start;
+    color: #333;
+}
+
+.problem-marker {
+    margin-right: 8px;
+    font-weight: bold;
+    min-width: 15px;
+}
+
+.expand-btn {
+    background: none;
+    border: none;
+    color: #0056b3;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 0 0 0;
+    margin-top: 5px;
+    align-self: center;
+    transition: color 0.2s;
+}
+
+.expand-btn:hover {
+    color: #003d82;
+    text-decoration: underline;
+}

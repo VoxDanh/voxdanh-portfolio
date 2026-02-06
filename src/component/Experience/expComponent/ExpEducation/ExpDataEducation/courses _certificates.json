@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Technical Support Fundamentals",
+        "issuer": "Google",
+        "date": "2025",
+        "pdfLink": "https://coursera.org/share/2c48e965ca582ce8fd5e35ced80bc042"
+    },
+    {
+        "id": 2,
+        "name": "The Bits and Bytes of Computer Networking",
+        "issuer": "Google",
+        "date": "2025",
+        "pdfLink": "https://coursera.org/share/7b5b5cd971563f7598ce898c5ccb29a3"
+    },
+    {
+        "id": 3,
+        "name": "Operating Systems and You: Becoming a Power User",
+        "issuer": "Google",
+        "date": "2025",
+        "pdfLink": "https://coursera.org/share/2ef1a85cf745011af5fde33f275872e6"
+    }
+]

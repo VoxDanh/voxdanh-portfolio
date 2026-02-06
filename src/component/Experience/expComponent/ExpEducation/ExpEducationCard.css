@@ -1,0 +1,64 @@
+.exp-edu-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-edu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.exp-edu-header {
+    margin-bottom: 12px;
+}
+
+.exp-edu-degree {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.exp-edu-institution {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+.exp-edu-tech {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.edu-tech-tag {
+    background-color: #e3f2fd;
+    color: #1565c0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.exp-edu-description {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.exp-edu-score {
+    font-weight: bold;
+    color: #2e7d32;
+    font-size: 0.95rem;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}

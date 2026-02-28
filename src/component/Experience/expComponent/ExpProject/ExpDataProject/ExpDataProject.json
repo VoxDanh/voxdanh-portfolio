@@ -1,13 +1,36 @@
 [
     {
         "id": 1,
-        "projectName": "Update soon...",
+        "projectName": "Porfolio Website",
         "technologies": [
-            "Update soon..."
+            "React",
+            "JavaScript",
+            "CSS",
+            "HTML"
         ],
-        "description": "Update soon...",
+        "description": "A personal portfolio website to showcase my projects and skills, built with React for a dynamic and responsive user experience.",
         "problemsSolved": [
-            "Update soon..."
+            "-Using Ref to scroll to sections smoothly.",
+            "-Using Props to pass data between components effectively.",
+            "-Using State to manage component states efficiently.",
+            "-Separate the data and UI by using a JSON file to render a dynamic project list via the `.map()` function.",
+            "Design a responsive layout that works well on both desktop and mobile devices.",
+            "-Using component structure to organize the project for better maintainability.",
+            "-Using Vercel for easy deployment and hosting."
+        ]
+    },
+    {
+        "id": 2,
+        "projectName": "Weather Forecast Website",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "description": "A weather forecast website that provides accurate and up-to-date weather information for various locations.",
+        "problemsSolved": [
+            "Using the OpenWeatherMap API to fetch real-time weather data.",
+            "Using JSON for Using JSON to store location data allows for more accurate and up-to-date location information in Vietnam, instead of the CountryNow API."
         ]
     }
 ]

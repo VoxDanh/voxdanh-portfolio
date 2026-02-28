@@ -12,9 +12,33 @@
     {
         "id": 2,
         "institution": "Can Tho University",
+        "degree": "Object-Oriented Programming",
+        "technologies": [
+            "Java"
+        ],
+        "description": "Learn and understand the concepts of Object-Oriented Programming (OOP) such as classes, objects, inheritance, polymorphism, encapsulation, and abstraction with Java.",
+        "score": "A (9.0/10)"
+    },
+    {
+        "id": 3,
+        "institution": "Can Tho University",
+        "degree": "Introduction to Web Programming",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "BOOTSTRAP"
+        ],
+        "description": "Learn the basics of web development including HTML5 for structure, CSS3 for styling, JavaScript for interactivity, and Bootstrap for responsive design.(Completed the frontend web cloning project for Fahasa, in the role of team leader.",
+        "score": "A (9.2/10)"
+    },
+    {
+        "id": 4,
+        "institution": "Can Tho University",
         "degree": "Update soon...",
         "technologies": [],
         "description": "Update soon...",
         "score": "Update soon..."
     }
+    
 ]

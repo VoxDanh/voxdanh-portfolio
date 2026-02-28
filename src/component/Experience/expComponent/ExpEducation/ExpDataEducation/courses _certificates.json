@@ -19,5 +19,12 @@
         "issuer": "Google",
         "date": "2025",
         "pdfLink": "https://coursera.org/share/2ef1a85cf745011af5fde33f275872e6"
+    },
+    {
+        "id": 4,
+        "name": "Understading the Internet (Blended Learing)",
+        "issuer": "Keio University and APIE",
+        "date": "2026",
+        "pdfLink": "https://www.futurelearn.com/certificates/agl2aw9"
     }
 ]

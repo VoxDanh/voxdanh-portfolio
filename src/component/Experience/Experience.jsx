@@ -6,7 +6,7 @@ import React, { forwardRef, useState } from 'react';
 const ExperienceSection = forwardRef((props, ref) => {
     // 1. Khai báo State để giữ ID của phần đang được chọn
     // Mặc định ban đầu là 'project'
-    const [activeTab, setActiveTab] = useState('project');
+    const [activeTab, setActiveTab] = useState('career');
 
     // 2. Hàm xử lý khi người dùng click vào một mục
     const handleTabClick = (tabName) => {
@@ -38,17 +38,18 @@ const ExperienceSection = forwardRef((props, ref) => {
                     Projects
                 </div>
                 <div
-                    className={`tab-item ${activeTab === 'education' ? 'active' : ''}`}
-                    onClick={() => handleTabClick('education')}
-                >
-                    Education
-                </div>
-                <div
                     className={`tab-item ${activeTab === 'career' ? 'active' : ''}`}
                     onClick={() => handleTabClick('career')}
                 >
                     Career
                 </div>
+                <div
+                    className={`tab-item ${activeTab === 'education' ? 'active' : ''}`}
+                    onClick={() => handleTabClick('education')}
+                >
+                    Education
+                </div>
+
             </nav>
 
             {/* Phần hiển thị nội dung thay đổi */}

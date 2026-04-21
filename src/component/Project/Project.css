@@ -1,6 +1,5 @@
 .project-container {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to top, #012345 10%, #003366 100%);
     min-height: 100vh;
     margin: 0;
     display: grid;
@@ -9,6 +8,7 @@
     padding: 30px 40px;
     place-items: center;
     align-content: center;
+
 }
 
 @media (max-width: 768px) {

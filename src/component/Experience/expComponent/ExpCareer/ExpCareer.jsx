@@ -9,11 +9,12 @@ const ExpCareer = () => {
 
             {/* Career Timeline Section */}
             <div className="timeline-section">
-                <h2 style={{ textAlign: 'center', marginBottom: '30px', color: '#333' }}>Professional Journey</h2>
+                <h2 className="timeline-title">Professional Journey</h2>
                 <div className="timeline-container">
                     {careerData.map((item) => (
                         <div key={item.id} className="timeline-item">
                             <div className="timeline-dot"></div>
+                            <div className="timeline-line"></div>
                             <div className="career-card">
                                 <h3 className="career-position">{item.position}</h3>
                                 <h4 className="career-company">{item.company}</h4>

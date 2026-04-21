@@ -31,7 +31,6 @@
 .avt-img-container {
     position: absolute;
     top: -45px;
-    /* Dịch lên một nửa chiều cao avatar (150/2) */
     left: 50%;
     transform: translateX(-50%);
     width: 160px;

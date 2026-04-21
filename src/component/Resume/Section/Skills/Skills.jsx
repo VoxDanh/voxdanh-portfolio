@@ -6,7 +6,7 @@ function Skills() {
             <ul>
                 <li>
                     <h3>Programming Languages</h3>
-                    <p>C,Java,JavaScript,SQL,HTML5,CSS3</p>
+                    <p>C, Java, JavaScript, SQL, HTML5, CSS3, Python</p>
                 </li>
                 <li>
                     <h3>Frameworks</h3>
